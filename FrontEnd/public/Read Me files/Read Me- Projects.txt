@@ -1,0 +1,14 @@
+	Projects Page and Service provider page
+----------------------------------------------------------------------
+*** mdbootstrap.com ---> It's a framework built using bootstrap. I have downloaded it and aslo we can use CDN. And there are son many tutorials for
+	angular, react, vue.js
+
+
+	* Structure done
+	1. Jumbotrone margin  and colors should be chaneged.
+	2. Grid/list view have problem when the initilal page loading.
+	3. More bootstrap components should be added (flex, typography, boarders ect.)
+	4.  Scroll to top button should be added 
+	6. Items counter section
+
+	*** Service provider cards (alignments/ colors  recheck)	

@@ -1,0 +1,108 @@
+/*----------------------- THIS IS PAGE HEADER AND FOOTER STYLE SHEET FOR ALL PAGES ----------------------*/
+/* --------------------------------- THIS IS HOME PAGE STYLE SHEET ----------------------------------------------*/
+
+/* Top navigation links */ 
+.jumbotron{
+    padding-top: 5px !important;
+    background-color: rgb(1, 9, 26);
+    height: 80px !important;
+    margin-bottom: 0px;
+}
+#top-nav-links a{
+    color: white !important;
+    font-weight: 200 !important;
+    font-family: sans-serif !important;
+}
+#top-nav-links a:hover{
+    color: thistle !important;
+}
+.navbar{
+    margin-top: 0 !important;
+    font-family: sans-serif !important;
+    font-weight: 300 !important;
+}
+
+/* adds some margin below the link sets  */
+
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+ }
+
+ .navbar .dropdown-menu {
+   border: none;
+   background-color:rgba(198, 199, 245, 0.7)!important;
+ } 
+ /* breakpoint and up - mega dropdown styles */
+ @media screen and (min-width: 300px) { 
+ }
+   /* remove the padding from the navbar so the dropdown hover state is not broken */
+ .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+ }
+ 
+ /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+ .navbar .nav-item {
+   padding:.5rem .5rem;
+   margin:0 .25rem;
+ }
+ 
+ /* makes the dropdown full width  */
+ .navbar .dropdown {position:static;}
+ 
+ .navbar .dropdown-menu {
+   width:25%;
+   text-align: center;
+   left:0;
+   right:0;
+ /*  height of nav-item  */
+   top:45px; 
+   display:block;
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s, opacity 0.5s linear; 
+ }
+
+/* shows the dropdown menu on hover */
+ .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+   display:inline;
+   visibility: visible;
+   opacity: 1;
+   transition: visibility 0s, opacity 0.5s linear;
+ }
+
+.dropdown .dropdown-menu{
+     border: 5px solid rgba(0, 0, 0, 0.2);
+     background-color: #fff;
+}
+.navbar a{
+  font-weight: 400 !important;
+  font-family: sans-serif !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+.navbar .dropdown-menu a:hover{
+  background-color: white;
+}
+/*-------Nav Bar scrolling part / doesn't work properly---------------------
+.navbar .scrolled{
+  background-color:rgba(1,9,26,0.5);
+  transition: background 500ms;
+} ---------------------------------------------------------------*/
+
+/*---------- Footer --------------*/
+#footer{
+    background-color: rgb(1, 9, 26);
+  }
+  #footer h2{
+    color: silver;
+  }
+  #footer ul{
+    line-height: 2rem;
+  }
+  #footer ul a{
+    color: white;
+  }
+  #footer ul a:hover{
+    color:silver;
+  }

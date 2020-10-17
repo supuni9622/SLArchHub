@@ -1,0 +1,15 @@
+.sign-in-container{
+    /*border: 2px solid black; */
+    color: black;
+    padding: 10px;
+    /*background-image: url(https://cdn.pixabay.com/photo/2019/02/28/15/39/landscape-4026168__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-size: 14px;
+    background-color: white;
+    height: 100%;
+}
+
+.errorRegister{
+    color: red;
+}

@@ -1,0 +1,18 @@
+	Dash Board Structure
+-------------------------------------------------------------------------------------
+	1. There is a issue in the small size of screen (top nav and side bar -- No scrolling and logout button over the profile photo)
+	2. Side bar overiding - Last item doesn't display (Google map)
+	3. Nav bar not fixed on the top when small screen
+
+	Architect Dash board
+----------------------------------------------------------------
+`	1. Shold add the chart and the calender like wire frame(work shedule)
+	2. Edit existing content and colors
+	3. Buttons interactivity
+	4. Think about the card content( It shold be better change the cards like dashio cards.
+	5. Content doesn't move when toggling( Solve that problem)
+	6. Footer change
+
+
+              Collapsible side bar --> toggling
+	https://bootstrapious.com/p/bootstrap-sidebar  --->demo 4 --> advance side bar

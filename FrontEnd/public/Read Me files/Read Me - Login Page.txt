@@ -1,0 +1,8 @@
+	Login & Registration Page  -- Front end part
+------------------------------------------------------------------------------------------------------------
+	1. Responsiveness is not working properly with the small screen size ( Have to resolve it)
+	2. Background photo shold be change.
+	3. Background content shold be change( Niot the form)
+	4. Form validation is remain
+	5. Top Margin 
+	

@@ -1,0 +1,17 @@
+/*.active{
+    background-color: rgb(0, 0, 46) !important;
+    color: silver !important;
+}*/
+
+.nav-pills{
+    background-color: silver !important;
+}
+/*
+a{
+    color: rgb(0, 0, 46) !important;
+}*/
+
+#navBar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+	Home Page  -- Front end part
+----------------------------------------------------------------------------------------
+	1. Photo/ Video making and content writing
+	2.Scroll top button
+	3.Chat bot button
+	4.Top nav scrolling transistion ( That code isn't work as bootcamp)
+	5.Effects and colors are not working in small screen size ( Check it. I think problem is with the css. Read bootstrap note again
+	   and try to resolve it)
+	6. About/ Work flow/ Services/ Terms and conditons/ Privacy policy / FAQ pages are remaining to do. About/ Work flow/ services 
+	   pages should do as i have written in book adn shoul reffer web templates(KD, Heaven, Marga)
+	7. Section counter shoul be interactive.
+	8. Have ti make chat bot. (Helping sites are in the short cut-desktop and the bookmarks in google)

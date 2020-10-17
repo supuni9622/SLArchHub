@@ -1,0 +1,66 @@
+/*-------------------------- PROJECTS PAGE STYLE SHEET -------------------------------------------------------*/
+
+#main{
+    margin-top: 0;
+}
+
+
+.button_collapse{
+  padding: 10px !important;
+  width: 100% !important;
+  text-align: left !important;
+  outline: none !important;
+  font-size: 15px !important;
+  margin:0 !important;
+}
+
+/* The sidebar menu */
+.sidebar {
+    margin-top: 140px;
+    height: 80%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    overflow-y: auto;
+    background-color: white;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+
+/* --------------------- Projects Container -----------------------------------*/
+
+#projects{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#grid-view{
+    background-color: rgb(1,9,26);
+    padding: 20px;
+}
+.card-deck{
+    background-color: rgb(1,9,26);
+    padding: 20px;
+}
+
+#projectCard{
+  margin-left : 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.linkButton{
+  margin-left: 10px;
+  margin-right: 10px;
+}

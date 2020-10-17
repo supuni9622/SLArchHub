@@ -1,0 +1,6 @@
+"C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
+
+
+ // set GOOGLE_APPLICATION_CREDENTIALS=/Users/HARITHA/DOWNLOADS/chatBotKey/slarchhub-chat-bot.json
+ // "F:\chatBotKey\slarchhub-chat-bot.json"
+ // "F:\chatBotKey\slarchhub-chat-bot-2.json"

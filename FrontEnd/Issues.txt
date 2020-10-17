@@ -1,0 +1,10 @@
+           FRONT END - REACT - SL ARCH HUB
+
+         1. JS files for projects, dashboard and login  (Wash video and read articles again. Then can try to export projects, dashboard js 
+             to components (without adding external js) But external js is required to Login
+
+         2. Addintional space between components (because of <div>. But i used react.fragment. But it didn't work. 
+
+         3. There are some issues in responsive navbar. It doesn't work properly
+
+        4. Dashboard- side bar and footer links, Profile-topics are not aligned properly. They should be left aligned but in the middle. 

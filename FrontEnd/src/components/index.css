@@ -1,0 +1,15 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  
+  .input-feedback {
+    color: red;
+    height: 5px;
+    margin-top: 10px;
+  }
+  

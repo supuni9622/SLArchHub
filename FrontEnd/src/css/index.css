@@ -1,0 +1,402 @@
+/* --------------------------------- THIS IS HOME PAGE STYLE SHEET ----------------------------------------------
+body{
+    background-color:silver;
+}
+
+/* Top navigation links 
+.jumbotron{
+    padding-top: 5px !important;
+    background-color: rgb(1, 9, 26);
+    height: 80px !important;
+    margin-bottom: 0px;
+}
+#top-nav-links a{
+    color: white !important;
+    font-weight: 200 !important;
+    font-family: sans-serif !important;
+}
+#top-nav-links a:hover{
+    color: thistle !important;
+}
+.navbar{
+    margin-top: 0 !important;
+    font-family: sans-serif !important;
+    font-weight: 300 !important;
+}
+
+/* adds some margin below the link sets  
+
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+ }
+
+ .navbar .dropdown-menu {
+   border: none;
+   background-color:rgba(198, 199, 245, 0.7)!important;
+ } 
+ /* breakpoint and up - mega dropdown styles 
+ @media screen and (min-width: 920px) {
+   
+   /* remove the padding from the navbar so the dropdown hover state is not broken 
+ .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+ }
+ 
+ /* remove the padding from the nav-item and add some margin to give some breathing room on hovers 
+ .navbar .nav-item {
+   padding:.5rem .5rem;
+   margin:0 .25rem;
+ }
+ 
+ /* makes the dropdown full width  
+ .navbar .dropdown {position:static;}
+ 
+ .navbar .dropdown-menu {
+   width:50%;
+   text-align: center;
+   left:0;
+   right:0;
+ /*  height of nav-item  
+   top:55px; 
+   display:block;
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s, opacity 0.5s linear; 
+ }
+
+/* shows the dropdown menu on hover 
+ .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+   display:inline;
+   visibility: visible;
+   opacity: 1;
+   transition: visibility 0s, opacity 0.5s linear;
+ }
+
+.dropdown .dropdown-menu{
+     border: 5px solid rgba(0, 0, 0, 0.2);
+     background-color: #fff;
+}
+.navbar a{
+  font-weight: 400 !important;
+  font-family: sans-serif !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+.navbar .dropdown-menu a:hover{
+  background-color: white;
+}
+/*-------Nav Bar scrolling part / doesn't work properly---------------------
+.navbar .scrolled{
+  background-color:rgba(1,9,26,0.5);
+  transition: background 500ms;
+} ---------------------------------------------------------------*/
+
+/*---------Chat Bot  Icon Fixed Bottom----------*/
+.container-fluid i{
+  color: azure;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+/* Slider */
+#slider{
+    width: 100%;
+}
+.carousel-caption{
+    top :50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5{
+    color: white;
+    font-size: 42px;
+}
+/*About section */
+#about{
+    background-color: rgb(1, 9, 26);
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.blub h2{
+    font-weight: 200;;
+}
+.blub p{
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    font-family: sans-serif;
+}
+/*Section Counter*/
+.card{
+    background-color: rgb(1, 9, 26);
+    color: rgb(198, 200, 201);
+}
+
+/* Work Flow */
+.section_tittle {
+    margin-bottom: 81px;
+  }
+  
+  @media (max-width: 575px) {
+    .section_tittle {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section_tittle {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_tittle {
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_tittle {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .section_tittle img {
+    margin-bottom: 13px;
+  }
+  
+  .section_tittle h2 {
+    color: #010101;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 39px;
+    text-transform: capitalize;
+  }
+  
+  @media (max-width: 575px) {
+    .section_tittle h2 {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section_tittle h2 {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_tittle h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_tittle h2 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
+
+  .section_tittle p {
+    color: #4c4c4c;
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .service_part{
+      background-color: rgb(1, 9, 26) !important;
+      color: silver !important;
+  }
+  .section_tittle h2{
+      color: white;
+      padding-top: 20px;
+  }
+/* Work Flow */
+.service_part{
+  padding-bottom: 20px;
+}
+
+/* Service Section */
+#service{
+  background-image: linear-gradient(rgba(1,9,26,0.5), rgba(1,9,26,0.5)),url(https://cdn.pixabay.com/photo/2019/06/04/19/54/norway-4252178__340.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#service h1{
+  color:silver;
+}
+#service h1::after{
+  content: ' ';
+  background: silver;
+  display:block;
+  height: 3px;
+  width : 250px;
+  margin : 20px auto 5px;
+}
+
+/*--- Sevice - Get work done on SLArchHub --*/
+#clientService{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.clientService h1{
+  padding-bottom: 30px;
+}
+.homeVideo video{
+  border: 5px groove black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.homeVideo .btn{
+  float:right;
+}
+
+/* Service- Explore your market place */
+#service{
+  padding-bottom: 80px;
+}
+.service{
+  margin-top:20px;
+}
+.service img{
+  margin: 20px auto;
+  padding-bottom: 20px;
+  border: 1px solid silver;
+}
+.service h3{
+  color: silver;
+}
+.service p{
+  color: white;
+  font-size: 16px;
+  margin-top: 20;
+}
+.service .col-md-3:hover{
+  background-color:black;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#service .btn{
+   float: right;
+   margin-top: 20px;
+}
+
+/*-- What peaple say about SLArchHub --*/
+#testimoniel{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+#testimoniel .row{
+  margin-top: 50px;
+}
+#testimoniel .col-md-3{
+  margin: 30px auto;
+}
+#testimoniel p{
+  color: white;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.profile{
+  padding:70px 10px 10px;
+  background-color: rgb(1, 9, 26);
+}
+.user{
+  width :150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.profile img{
+  top: -60px;
+  position: absolute;
+  left:calc(50%-40px);
+  border : 10px solid silver;
+}
+blockquote{
+  line-height: 30px;
+}
+
+/* This is for add (" ") to the statement. But this isn't working-------------------------
+blockquote::before{
+  content:'\93';
+  font-size: 40px;
+  color: silver;
+  position: relative;
+  line-height: 20px;
+  bottom: -15x;
+  right:5px;
+}
+blockquote::after{
+  content:'\94';
+  font-size: 40px;
+  color: silver;
+  position: relative;
+  line-height: 20px;
+  bottom: -15x;
+  left:5px; ----------------------------*/
+.profile:hover{
+  box-shadow: 0 0 18px 7px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/*---------Contact Section-------------*/
+#contact{
+  background-image: linear-gradient(rgba(1,9,26,0.5), rgba(1,9,26,0.5)),url(https://cdn.pixabay.com/photo/2019/02/28/15/39/landscape-4026168__340.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ /* background-color:rgb(1, 9, 26);*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777777;
+}
+.contact-form{
+  padding: 15px;  
+}
+#contact h1{
+  color:silver;
+}
+.follow{
+  background:rgb(1, 9, 26);
+  padding: 10px;
+  margin: 15px;
+  color:white;
+}
+.contact-info a{
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/*---------- Footer --------------
+#footer{
+  background-color: rgb(1, 9, 26);
+}
+#footer h2{
+  color: silver;
+}
+#footer ul{
+  line-height: 2rem;
+}
+#footer ul a{
+  color: white;
+}
+#footer ul a:hover{
+  color:silver;
+}*/

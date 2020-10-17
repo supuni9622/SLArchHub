@@ -1,0 +1,23 @@
+/*----------------------------------------- ARCHITECTS PAGE STYLE SHEET--------------------------------------------------------------------*/
+
+#main{
+    margin-top: 140px;
+}
+
+.jumbotrone-fluid{
+    background-color: rgb(250, 251, 252);
+    padding: 10px;
+}
+
+#archi_list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+.card-deck{
+    background-color: rgb(1,9,26);
+    padding: 20px;
+    margin-top: 160px;
+}

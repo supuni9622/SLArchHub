@@ -1,0 +1,54 @@
+/*--------------------------------- PROJECT DETAILS PAGE STYLE SHEET ------------------------------------------------*/
+
+#project_cover{
+    margin-top: 120px;  
+}
+
+#description{
+    background-color: white;
+    margin-top: -160px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#rightSide{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+#overlay{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.mainDetails{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.details{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+#text{
+    background-color: aliceblue;
+    color: black;
+    font-size: 6vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+}
